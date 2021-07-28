@@ -1,11 +1,20 @@
 {
-  "name": "alius-projektas",
+  "name": "alius-projektas-node.js-backend",
   "version": "1.0.0",
-  "description": "Aliaus Paskaitu Projektas Node.js ir Back Endas",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Gytis",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GytisKupinas/Alius-Projektas-Node.js-BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GytisKupinas/Alius-Projektas-Node.js-BackEnd/issues"
+  },
+  "homepage": "https://github.com/GytisKupinas/Alius-Projektas-Node.js-BackEnd#readme"
 }
