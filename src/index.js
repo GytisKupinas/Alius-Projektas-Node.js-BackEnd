@@ -1,7 +1,8 @@
-import {Puodukas} from "./puodukas.js";
+import { Server } from "net";
 
-console.log("hello world!!!");
+let server = new Server(socket => {
+    console.log("kazkas prisijunge");
+    socket.end();
+});
 
-let p = new Puodukas();
-
-console.log(p);
+server.listen(3000);
